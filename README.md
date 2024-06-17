@@ -16,13 +16,13 @@ This repository contains various JavaScript and Node.js programs that demonstrat
 This program demonstrates a nested series of callbacks, often referred to as "callback hell." It simulates a student studying various topics in a sequential manner. The callbacks are nested to ensure each task completes before the next one starts.
 
 
-##Coin Flip with Callback
+## Coin Flip with Callback
 This program simulates a coin flip using a callback function. The result of the coin flip ("heads" or "tails") is passed to the callback function.
 
-##Promise Flow Explanation
+## Promise Flow Explanation
 his program demonstrates the flow of a promise chain with .then and .catch blocks. It shows how promises can be used to handle asynchronous operations and errors.
 
-###Explanation
+### Explanation
 - The job function returns a promise that immediately rejects.
 - The promise is assigned to a variable.
 - The first .then block is skipped because the promise was rejected.
@@ -30,10 +30,10 @@ his program demonstrates the flow of a promise chain with .then and .catch block
 - The .catch block executes, logging an error message.
 - The final .then block executes because the .catch handled the previous rejection.
 
-  ##Fetch Data from Public API
+  ## Fetch Data from Public API
 This Node.js program fetches data from a public API using the Promise concept. It demonstrates how to make HTTP requests and handle responses asynchronously.
 
-##Process Array with Delays
+## Process Array with Delays
 This Node.js program processes an array of numbers, doubling each number with a simulated delay of 1 second using Promises. It demonstrates how to chain promises to create delays between operations.
 
 ### How to Run
@@ -43,3 +43,4 @@ This Node.js program processes an array of numbers, doubling each number with a 
 3. Run the code using Node.js:
    ```bash
    node callbackHell.js
+
