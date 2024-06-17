@@ -4,12 +4,12 @@ This repository contains various JavaScript and Node.js programs that demonstrat
 
 ## Contents
 
-1. [Callback Hell](#callback-hell)
-2. [Coin Flip with Callback](#coin-flip-with-callback)
-3. [Asynchronous Addition](#asynchronous-addition)
-4. [Promise Flow Explanation](#promise-flow-explanation)
-5. [Fetch Data from Public API](#fetch-data-from-public-api)
-6. [Process Array with Delays](#process-array-with-delays)
+1. Callback Hell
+2. Coin Flip with Callback
+3. Asynchronous Addition
+4. Promise Flow Explanation
+5. Fetch Data from Public API
+6. Process Array with Delays
 
 ## Callback Hell
 
@@ -18,6 +18,8 @@ This program demonstrates a nested series of callbacks, often referred to as "ca
 
 ## Coin Flip with Callback
 This program simulates a coin flip using a callback function. The result of the coin flip ("heads" or "tails") is passed to the callback function.
+## Asynchronous Addition
+This program converts a synchronous addition function to an asynchronous one using a callback. It simulates a delay before returning the sum of two numbers.
 
 ## Promise Flow Explanation
 his program demonstrates the flow of a promise chain with .then and .catch blocks. It shows how promises can be used to handle asynchronous operations and errors.
